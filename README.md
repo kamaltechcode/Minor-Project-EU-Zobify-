@@ -1,2 +1,2 @@
 # Minor-Project-EU-Zobify-
-Authore- Kamal Vishwakarma
+Author- Kamal Vishwakarma

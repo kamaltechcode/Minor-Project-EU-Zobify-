@@ -3,12 +3,35 @@
     padding: 0;
 }
 
+.global-h-font {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.global-bg {
+    background-color: #caf0f8;
+}
+
+.global-text {
+    color: #023e8a;
+}
+
+.global-sec-bg {
+    background-color: #dde3ea;
+}
+
+.global-sec-el-col {
+    background-color: #1344fc;
+}
+
+
+
 nav {
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
     height: 10vh;
-    background-color: blue;
+
     align-items: center;
     justify-content: space-between;
     color: white;
@@ -24,7 +47,7 @@ nav li {
 
 nav div {
     display: flex;
-    color: white;
+    /* color: white; */
 }
 
 /* nav div li {
@@ -48,7 +71,7 @@ nav div {
 
 .bot {
     border: 2px solid white;
-    background-color: white;
+    /* background-color: white; */
 
 }
 
@@ -63,30 +86,32 @@ nav div {
     background-color: white;
 } */
 
-.Zobify-bot{
-    color: white;
+.Zobify-bot {
+    /* color: white; */
     font-weight: bold;
-    border:1px solid white;
+    border: 1px solid #023e8a;
     border-radius: 5px;
     padding: 5px 120px 5px 2px;
 }
 
-svg{
+svg {
     width: 10px;
     height: 10px;
     align-items: end;
     color: white;
 }
 
-.logo{
+.logo {
     padding: 0px 0px 0px 5px;
 }
 
 
 .pjob {
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     height: 60vh;
     display: flex;
+    font: weight 700px;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -95,7 +120,7 @@ svg{
 .side-buttons li {
     border-radius: 5px;
     /* background-color: white; */
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     margin-right: 10px;
     padding: 0px;
 }
@@ -109,6 +134,47 @@ svg{
     justify-content: center;
     align-items: center;
 }
+
+.side-buttons button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+nav button{
+    padding: 5px 0px 5px 15px;
+    border-radius: 10px;
+    width: 350px;
+    color: #000000;
+
+}
+
+nav button a{
+    color: black;
+}
+
+.pjob-input input {
+    padding: 5px 0px 5px 15px;
+    border-radius: 10px;
+
+}
+
+
+.pjob-input button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+
+}
+
+.pjob-input button:hover {
+    background-color: #1344fc;
+    color: white;
+}
+
+
+
+
 
 input {
     border: 2px solid blue;
@@ -156,9 +222,9 @@ input {
     list-style: none;
 }
 
-.w-countery{
+.w-countery {
     border: 2px solid blue;
-    border-radius: 5px ;
+    border-radius: 5px;
     padding: 3px 35px 3px 35px;
     box-shadow: 2px blue;
     color: white;
@@ -166,19 +232,22 @@ input {
     font-weight: bold;
 
 }
+
 /* .w-countery a{
     border-radius: 2px;
 } */
 
-.footer-sec div :first-child{
+.footer-sec div :first-child {
     margin-top: 5px;
 }
+
 .logo {
 
     display: flex;
     flex-direction: row;
 }
-#follow-button{
+
+#follow-button {
     border-radius: 10px;
     padding: 5px;
 }
@@ -194,7 +263,7 @@ footer-sec button {
 }
 
 .main-footer {
-    
+
     font-size: 10px;
     display: flex;
     justify-content: space-between;
@@ -202,7 +271,8 @@ footer-sec button {
     background-color: rgb(0, 0, 0);
     color: white;
 }
-.main-footer button{
+
+.main-footer button {
     padding: 0 10px 0px 10px;
     color: blue;
 }
@@ -215,7 +285,8 @@ footer-sec button {
     list-style: none;
 
 }
-.main-foot{
+
+.main-foot {
     text-align: center;
     background-color: blue;
     color: white;
